@@ -1,0 +1,22 @@
+Script started on Wed 19 Jul 2017 02:30:24 PM PDT
+kodavis@babbage:~/CS201/2_Assignment$ make
+make: Nothing to be done for 'all'.
+kodavis@babbage:~/CS201/2_Assignment$ ./setBits 1 2 3 15 12
+1001000000001110
+kodavis@babbage:~/CS201/2_Assignment$ ./setBits 1 2 3 15 12
+0000000000000000
+kodavis@babbage:~/CS201/2_Assignment$ ./setBits 1 2 3 15 12 16
+Input was not inside valid range. Program will exit.
+kodavis@babbage:~/CS201/2_Assignment$ ./showBits 0xE0C874A3 0xD49157FF
+Bits in common: 31 30 23 14 12 10 7 5 1 0 
+Hexadecimal: C08054A3
+Signed Integer: -1065331549
+Unsigned Integer: 3229635747
+kodavis@babbage:~/CS201/2_Assignment$ ./showBits 0xE0C874A3 0xD49157FF 0x01
+Error: please provide two hexadecimal numbers as arguments to the program.
+kodavis@babbage:~/CS201/2_Assignment$ ./showBits 0xE0C874A3 0xD49157FF
+Error: please provide two hexadecimal numbers as arguments to the program.
+kodavis@babbage:~/CS201/2_Assignment$ exit
+exit
+
+Script done on Wed 19 Jul 2017 02:31:10 PM PDT

@@ -1,0 +1,75 @@
+Script started on Fri 28 Jul 2017 06:10:41 PM PDT
+kodavis@babbage:~/CS201/3_Assignment$ make
+cc -Wall -g  fp_parse.c -o fp_parse -lm
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 4 4 1af
+
+-15.500000
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 4 8 33f
+
+Illegal number of exponent bits(8). Should be between 3 and 5.
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 11 4 33f
+
+Illegal number of fraction bits(11). Should be between 2 and 10.
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 4 4 af
+
+15.500000
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 3 3 3c
+
+NaN
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 3 3 38
+
++inf
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 3 3 78
+
+-inf
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 3 3 26
+
+3.500000
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 3 3 18
+
+1.000000
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 3 3 3f
+
+NaN
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 3 3 37
+
+15.000000
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 4 4 0
+
+0.000000
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 4 4 100
+
+-0.000000
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse
+
+Incorrect number of arguments.
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse
+
+Incorrect number of arguments.
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 4 4
+
+Incorrect number of arguments.
+
+kodavis@babbage:~/CS201/3_Assignment$ ./fp_parse 4 4 100 4
+
+Incorrect number of arguments.
+
+kodavis@babbage:~/CS201/3_Assignment$ exit
+exit
+
+Script done on Fri 28 Jul 2017 06:15:03 PM PDT

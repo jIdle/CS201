@@ -1,0 +1,38 @@
+Script started on Wed 28 Jun 2017 06:43:05 PM PDT
+kodavis@babbage:~/CS201/1_Assignment$ make
+cc -Wall -g -o type_speed type_speed.c
+kodavis@babbage:~/CS201/1_Assignment$ ./a.out
+This game will test your typing speed.
+Type the word: fox
+fox
+Type the word: brown
+brown
+Type the word: The
+The
+Type the word: over
+over
+Type the word: jumps
+dfdf
+Type the word: jumps
+dfdfd
+Type the word: jumps
+dfdfd
+Type the word: jumps
+jumpsd 
+Type the word: lazy
+lzy
+Type the word: lazy
+: Lz azy
+Type the word: lazy
+lazy
+Type the word: quick
+quick
+Type the word: the
+the
+Type the word: dog
+dog
+Seconds to complete: 26 seconds and 152927 usec
+kodavis@babbage:~/CS201/1_Assignment$ exit
+exit
+
+Script done on Wed 28 Jun 2017 06:43:46 PM PDT

@@ -1,0 +1,252 @@
+Script started on Sat 12 Aug 2017 01:47:51 PM PDT
+kodavis@babbage:~/CS201/4_Assignment$ make
+cc -Wall -g functions.c main.c -o main
+kodavis@babbage:~/CS201/4_Assignment$ ./main
+
+Error. Incorrect number of arguments: 0
+Valid argument range: 2 - 15
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 1
+
+Error. Incorrect number of arguments: 1
+Valid argument range: 2 - 15
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+
+Error. Incorrect number of arguments: 16
+Valid argument range: 2 - 15
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 1 2 3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 1
+
+User has chosen to invoke the Addition function.
+You are attempting to add 3 numbers together.
+The result is: 
+
+Decimal: 6.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 1 2 3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 2
+
+User has chosen to invoke the Subtraction function.
+You are attempting to subtract 3 numbers.
+The result is: 
+
+Decimal: -6.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 1 2 3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 3
+
+User has chosen to invoke the Multiplication function.
+You are attempting to multiply 3 numbers together.
+The result is: 
+
+Decimal: 6.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 1 2 3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 4
+
+User has chosen to invoke the Division function.
+You are attempting to divide 3 numbers.
+Only the first two arguments are used when dividing. The rest will be discarded.
+The result is: 
+
+Decimal: 0.500000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 1 2 3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 5
+
+User has chosen to invoke the Modulo function.
+You are attempting to mod 3 numbers.
+Only the first two arguments are used by the modulo function. The rest will be discarded.
+The result is: 
+
+Decimal: 1.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 0x1 0x2 0x3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 1
+
+User has chosen to invoke the Addition function.
+You are attempting to add 3 numbers together.
+The result is: 
+
+Decimal: 6.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 0x1 0x2 0x3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 2
+
+User has chosen to invoke the Subtraction function.
+You are attempting to subtract 3 numbers.
+The result is: 
+
+Decimal: -6.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 0x1 0x2 0x3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 3
+
+User has chosen to invoke the Multiplication function.
+You are attempting to multiply 3 numbers together.
+The result is: 
+
+Decimal: 6.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 0x1 0x2 0x3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 4
+
+User has chosen to invoke the Division function.
+You are attempting to divide 3 numbers.
+Only the first two arguments are used when dividing. The rest will be discarded.
+The result is: 
+
+Decimal: 0.500000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main 0x1 0x2 0x3
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 5
+
+User has chosen to invoke the Modulo function.
+You are attempting to mod 3 numbers.
+Only the first two arguments are used by the modulo function. The rest will be discarded.
+The result is: 
+
+Decimal: 1.000000
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main hello my name is
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 6
+
+User has chosen to invoke the Input Reversal function.
+You are attempting to reverse 4 words.
+
+	si eman ym olleh 
+
+kodavis@babbage:~/CS201/4_Assignment$ ./main testing exit
+
+Choose from one of the 7 options:
+0. Exit
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulo
+6. Reverse Input
+
+Menu option #: 0
+
+User has chosen to invoke the Exit function.
+Program exiting...
+
+kodavis@babbage:~/CS201/4_Assignment$ make clean
+rm -f main *.o ~*
+kodavis@babbage:~/CS201/4_Assignment$ exit
+exit
+
+Script done on Sat 12 Aug 2017 01:50:10 PM PDT
